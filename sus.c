@@ -26,10 +26,6 @@ static const char *sus[] = {
 
 // oh shit he's in the terminal now
 int main(void)
-{
-    for (int i = 0; i < 5; i++) {
-    printf("sus\n");
-};
     for (size_t i = 0; i < sizeof sus / sizeof sus[0]; i++)
         puts(sus[i]);
     return 0;
